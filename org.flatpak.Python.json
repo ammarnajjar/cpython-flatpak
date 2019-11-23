@@ -1,0 +1,21 @@
+{
+    "app-id": "org.flatpak.Python",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "18.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "python3.9",
+	"tags": ["nightly"],
+    "modules": [
+        {
+            "name": "python39",
+			"no-autogen": true,
+			"make-install-args": ["prefix=/app"],
+			"sources": [
+				{
+					"type": "git",
+					"url": "https://github.com/python/cpython"
+				}
+			]
+        }
+    ]
+}
