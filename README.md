@@ -2,6 +2,8 @@
 
 A nightly cpython flatpak builder.
 
+For official cpython [releases](https://github.com/python/cpython/tags), please refer to [tags](https://github.com/ammarnajjar/cpython-flatpak/tags), they match the official cpython releases.
+
 ### Usage:
 
 #### installation:
