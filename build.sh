@@ -14,5 +14,5 @@ flatpak --user -v install nightly-python org.flatpak.Python || true
 flatpak update --user org.flatpak.Python
 
 # Create a symlink to the created binary
-sudo rm -f /usr/local/bin/python3.9
-sudo ln -s $HOME/.local/share/flatpak/app/org.flatpak.Python/current/active/files/bin/python3.9 /usr/local/bin/python3.9
+sudo rm -f /usr/local/bin/python3.8
+sudo ln -s $HOME/.local/share/flatpak/app/org.flatpak.Python/current/active/files/bin/python3.8 /usr/local/bin/python3.8
