@@ -2,7 +2,25 @@
 
 A nightly cpython flatpak builder.
 
-For official cpython [releases](https://github.com/python/cpython/tags), please refer to [tags](https://github.com/ammarnajjar/cpython-flatpak/tags), they match the official cpython releases.
+For official cpython [releases](https://github.com/python/cpython/tags),
+please refer to [tags](https://github.com/ammarnajjar/cpython-flatpak/tags),
+they match the official cpython releases.
+
+### Requirements:
+
+- Fedora based:
+
+```console
+sudo dnf install flatpak flatpak-builder
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+- Debian based:
+
+```console
+sudo apt install flatpak flatpak-builder
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
 
 ### Usage:
 
